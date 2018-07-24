@@ -1,0 +1,28 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000copy/finance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1000copy/finance/issues"
+  },
+  "homepage": "https://github.com/1000copy/finance#readme",
+  "dependencies": {
+    "async-csv": "^1.0.1",
+    "await-fs": "^1.0.0",
+    "csv-parse": "^2.5.0"
+  }
+}
